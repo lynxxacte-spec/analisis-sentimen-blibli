@@ -1,0 +1,59 @@
+{
+  "akurasi": 0.75,
+  "macro_precision": 0.6529982363315697,
+  "macro_recall": 0.6597707847707848,
+  "macro_f1": 0.6478608076795763,
+  "nested_akurasi_mean": 0.7233333333333334,
+  "nested_akurasi_sd": 0.04245549594342845,
+  "nested_f1_mean": 0.6376431209525794,
+  "nested_f1_sd": 0.04927053794299414,
+  "per_kelas": {
+    "Positif": {
+      "precision": 0.8518518518518519,
+      "recall": 0.8846153846153846,
+      "f1": 0.8679245283018868,
+      "support": 52
+    },
+    "Netral": {
+      "precision": 0.35714285714285715,
+      "recall": 0.20833333333333334,
+      "f1": 0.2631578947368421,
+      "support": 24
+    },
+    "Negatif": {
+      "precision": 0.75,
+      "recall": 0.8863636363636364,
+      "f1": 0.8125,
+      "support": 44
+    }
+  },
+  "urutan_label": [
+    "Positif",
+    "Netral",
+    "Negatif"
+  ],
+  "confusion_matrix": [
+    [
+      46,
+      5,
+      1
+    ],
+    [
+      7,
+      5,
+      12
+    ],
+    [
+      1,
+      4,
+      39
+    ]
+  ],
+  "n_test": 120,
+  "parameter_terbaik": {
+    "fitur__karakter__ngram_range": "(3, 5)",
+    "fitur__kata__ngram_range": "(1, 1)",
+    "nb__alpha": "0.2",
+    "nb__class_prior": "[0.25, 0.45, 0.3]"
+  }
+}
